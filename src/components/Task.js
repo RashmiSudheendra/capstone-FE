@@ -89,7 +89,7 @@ function Task() {
 
     useEffect(() => {
         if (!isAddTaskModalOpen || isRenderChange) {
-            axios.get(`http://localhost:9000/project/${projectId}`)
+            axios.get(`https://capstone-project-management-be.onrender.com/project/${projectId}`)
                 .then((res) => {
                     setTitle(res.data[0].title)
                     setDescrip(res.data[0].description)
