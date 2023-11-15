@@ -72,7 +72,7 @@ function Signup() {
 
 return (
     <div style={{ backgroundColor: "#F7F9FB", height: "100vh", overflow: "hidden" }} className='d-flex flex-column w-100'>
-        <div className='d-flex align-items-center w-100'>
+        <div className='d-flex align-items-center col-sm-5 col-md-7 col-lg-12'>
             <div className='card rounded-0 border-0 d-flex justify-content-center align-items-center w-50' style={{ backgroundColor: "#F7F9FB" }}>
                 <Form className='w-50'>
                     <Form.Group className="text-md mb-3 mx-5">
