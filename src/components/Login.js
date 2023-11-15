@@ -50,7 +50,7 @@ function Welcome() {
     }
 
     return (
-        <div style={{ backgroundColor: "#F7F9FB", height: "100vh", overflow: "hidden" }} className='d-flex w-100 align-content-center'>
+        <div style={{ backgroundColor: "#F7F9FB"}} className='d-flex w-100 align-content-center'>
             <div className='d-flex align-items-center col-sm-5 col-md-7 col-lg-12 row-sm-5 row-md-7 row-lg-12'>
                 <div className='d-flex align-items-end ml-5 pr-5' style={{ borderStyle: "double", borderWidth: "0px 5px 0px 0px", borderColor: "#FFBB15" }}>
                     <div style={{ backgroundImage: `url("https://i.ibb.co/wwjcsjG/1687777235026-1.png")`, backgroundSize: "cover", backgroundRepeat: "no-repeat", width: "110vh", height: "60vh", }} className='d-flex justify-content-end align-items-center ml-5'>
