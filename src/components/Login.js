@@ -57,7 +57,7 @@ function Welcome() {
                     </div>
                 </div>
                 <div className='card rounded-0 border-0 d-flex justify-content-center align-items-center' style={{ backgroundColor: "#F7F9FB", }}>
-                    <Form className='w-50'>
+                    <Form className='col-sm-9 col-md-6 col-lg-5'>
                         <Form.Group className="text-md mb-3 mx-5">
                             <Form.Label><strong>Email</strong></Form.Label>
                             <Form.Control type="email" className='focus-ring focus-ring-light rounded-0' placeholder="Enter Email" onChange={(e) => setEmail(e.target.value)} style={{ borderStyle: "solid", borderWidth: "0px 0px 3px 0px", borderColor: "black", backgroundColor: "#F7F9FB" }} />
